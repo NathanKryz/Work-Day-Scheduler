@@ -18,24 +18,26 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!--Added link to google icons for useable icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <!--Header at the top, featuring updated currentDay time element-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here, grid style, each row having 3 columns -->
       <div class="row time-block" data-state="9">
         <div class="col-1 hour">
           9AM
         </div>
-        <textarea class="col-10 present">
+        <textarea class="col-10">
         
         </textarea>
         <div class="col-1 saveBtn">
@@ -134,6 +136,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--Added link to the javascript script associated with this-->
     <script src="./script.js"></script>
   </body>
 </html>

@@ -44,17 +44,17 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
@@ -63,6 +63,14 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+}
+/* Added two new selectors to give the save buttons responsiveness on hover and click */
+.saveBtn:hover{
+  background-color: darkcyan;
+}
+
+.saveBtn:active{
+  background-color: black;
 }
 
 .saveBtn i:hover {
